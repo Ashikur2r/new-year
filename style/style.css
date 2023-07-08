@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
+/* this is headerbanner start */
 .header-banner {
     background-image: url('../images/banner/banner3.png');
     background-position: center;
@@ -22,36 +23,158 @@
     padding-left: 55%;
     color: white;
 }
-.header-title{
+
+.header-title {
     font-size: 65px;
     margin-bottom: 24px;
 }
-.header-description{
+
+.header-description {
     margin-bottom: 32px;
 }
-.header-btn{
+
+.header-btn {
     border-radius: 5px;
     border-style: none;
     padding: 20px 26px;
     color: #005FAC;
     font-size: 20px;
 }
-.info-container{
+
+/* this is info section start  */
+.info-container {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: space-around;
 }
-.info-img{
+
+.info-img {
     padding: 0 35px;
 }
-.info-content{
+
+.info-content {
     padding: 0 100px;
 }
-.info-content-title{
+
+.info-content-title {
     font-size: 40px;
     margin-bottom: 25px;
 }
-.info-description{
+
+.info-description {
     margin-bottom: 17px;
+}
+
+.info-list {
+    padding-left: 15px;
+}
+
+/* this is plan section star  */
+.plan-container {}
+
+.plan-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.plan-contain-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.plan-content {
+    text-align: center;
+    padding: 25px;
+}
+
+.plan-content-title {
+    margin: 16px 0;
+}
+
+.plan-content-description {
+    color: #737272;
+}
+
+/* this is a call banner section  */
+.call-banner {
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    /* background: linear-gradient(40deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 50%); */
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    margin: 130px 60px;
+}
+
+.call-banner-content {
+    margin-top: 75px;
+    margin-right: 45%;
+
+}
+
+.call-banner-title {
+    color: white;
+    font-size: 40px;
+}
+
+.call-banner-btn {
+    background-color: white;
+    border-style: none;
+    padding: 20px 36px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+/* this is a footer section  */
+.footer-container {
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.footer-info {
+    padding-right: 30%;
+}
+.footer-info-title{
+    font-size: 45px;
+}
+.footer-info p{
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.footer-subscription {
+    padding-right: 25px;
+}
+
+.footer-subscription-title {
+    font-size: 25px;
+}
+
+.footer-subscription input {
+    width: 325px;
+    padding: 25px;
+    background-color: #151414;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    border: 1px solid #FFF;
+}
+
+.footer-subscription button {
+    padding: 20px 35px;
+    border-radius: 8px;
+    background: #005FAC;
+    color: white;
+    border-style: none;
 }
